@@ -12,3 +12,14 @@ def reverse_sentence(sentence)
 end
 
 reverse_sentence(practice_sentence)
+
+
+
+with file open
+File.open(ARGV[0]).each_line do |line|
+def reverse_sentence(line)
+  sentence_array =  line.split.to_a
+  reversed_sentence_array = sentence_array.reverse
+  p reversed_sentence_array.join(" ")
+end
+end
